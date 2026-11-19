@@ -1,0 +1,7 @@
+# 8 MB flash (Freenove ESP32-S3-WROOM CAM, N8R8).
+# "models" holds every .espdl in ../models packed into one PDL3 file (see main/CMakeLists.txt).
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,     0xA000,   20K,
+phy_init, data, phy,     0xF000,   4K,
+factory,  app,  factory, 0x10000,  0x200000,
+models,   data, spiffs,  0x210000, 0x5F0000,

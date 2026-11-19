@@ -1,0 +1,28 @@
+{
+ "train_sessions": [
+  "t1",
+  "s3"
+ ],
+ "test_sessions": [],
+ "scored_on": "val (last 20 % of each step, not trained on)",
+ "train": 906,
+ "val": 220,
+ "best_val_acc": 1.0,
+ "test_float32": {
+  "n": 220,
+  "accuracy": 1.0,
+  "false_phone": 0,
+  "missed_phone": 0,
+  "phone": 118,
+  "no_phone": 102
+ },
+ "test_int8": {
+  "n": 220,
+  "accuracy": 1.0,
+  "false_phone": 0,
+  "missed_phone": 0,
+  "phone": 118,
+  "no_phone": 102
+ },
+ "espdl_bytes": 135504
+}

@@ -1,0 +1,6 @@
+* text=auto
+*.espdl binary
+*.onnx binary
+*.jpg binary
+*.png binary
+*.mp4 binary

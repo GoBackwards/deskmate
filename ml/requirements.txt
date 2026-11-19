@@ -1,0 +1,11 @@
+# PC tools for Deskmate (Python 3.12, tested on Windows). Versions are the ones we used.
+numpy==2.5.4
+opencv-python==5.1.0.95
+pillow==13.0.0
+pyserial==3.5
+imageio-ffmpeg==0.8.1
+# training and int8 export (train_pad.py); a CPU build of torch is enough
+torch>=2.11
+onnx==1.19.1
+onnxsim==0.8.1
+esp-ppq==1.3.14
