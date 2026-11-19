@@ -117,4 +117,5 @@ them from the team's shared folder. The format is `data/pad/<session>/<NN>_<labe
 
 ## License
 
-Not chosen yet. Until a license is added, others may view the code but not reuse it.
+MIT, see [LICENSE](LICENSE). The optional YOLO11n person model is not part of this repository
+and keeps its own license.
